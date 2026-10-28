@@ -1,8 +1,4 @@
 from models.cours import Cours
-from models.session import Session
-from models.groupe_cours import GroupeCours
-from models.etudiant import Etudiant
-
 
 class Programme:
     def __init__(self, nom: str):
